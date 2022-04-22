@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Program.cs~RF4361a2.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SamuraiAPP.Data\SamuraiAPP.Data.csproj" />
+    <ProjectReference Include="..\SamuraiAPP\SamuraiApp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
